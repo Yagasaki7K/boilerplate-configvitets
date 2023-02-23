@@ -1,6 +1,8 @@
-# Boilerplate | Using imports simply with @ using Vite and Typescript
+# Boilerplate | Using imports simple with @ on Vite and Typescript
 
-`npm i @types/node -D`
+First install dependencies with development: `npm i @types/node -D`
+
+Later, follow the settings in your respective files
 
 ```JS
 //vite.config.ts
@@ -27,13 +29,13 @@ export default defineConfig({
 }
 ```
 
-// Result
 ```JS
+// Result
 import { Never, Gonna, Give, You, Up } from '@/components'
 ```
 
-// Default
 ```JS
+// Default
 import Never from '../../../src/components'
 import Gonna from '../../../src/components'
 import Give from '../../../src/components'
